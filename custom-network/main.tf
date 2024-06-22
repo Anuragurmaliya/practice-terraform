@@ -52,6 +52,8 @@ resource "aws_route_table_association" "name" {
 
 }
 
+
+
 #security group cretion
 resource "aws_security_group" "tesla" {
     vpc_id = aws_vpc.dev.id
@@ -100,3 +102,5 @@ resource "aws_instance" "hari" {
     }
   
 }
+
+

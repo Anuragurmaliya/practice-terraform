@@ -22,7 +22,7 @@ resource "aws_subnet" "private" {
     }
   
 }
-# creating route table
+# creating internet gateway
 resource "aws_internet_gateway" "my-gateway" {
     vpc_id = aws_vpc.my-vpc.id
     tags = {

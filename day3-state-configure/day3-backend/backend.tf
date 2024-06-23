@@ -3,6 +3,7 @@ terraform {
     bucket = "myfirstttttttttanurahhhhh"
     key = "terraform.tfstate"
     region = "ap-south-1"
+    
 
     
   }
